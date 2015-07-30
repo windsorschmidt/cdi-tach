@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2204K-3.3TRG1
+D APE8865Y5-12-HF-3, WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
+K 150mA LDO Regulator Fixed Positive
+F http://www.mouser.com/ds/2/115/AP2204-271479.pdf
+$ENDCMP
+#
+$CMP CB3LV-3C-8M0000
+D Standard Clock Oscillator 3.3VDC 50ppm 8MHz
+F http://www.mouser.com/ds/2/96/008-0256-0-258244.pdf
+$ENDCMP
+#
+#End Doc Library
