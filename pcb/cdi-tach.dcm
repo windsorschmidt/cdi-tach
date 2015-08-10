@@ -16,4 +16,9 @@ D Standard Clock Oscillator 3.3VDC 50ppm 8MHz
 F http://www.mouser.com/ds/2/96/008-0256-0-258244.pdf
 $ENDCMP
 #
+$CMP Fuse_Resettable
+D Bourns MF-LSMF Series PTC Resettable Fuse
+K fuse,polyswitch,polyfuse
+$ENDCMP
+#
 #End Doc Library
