@@ -1,4 +1,4 @@
-update=Sun 09 Aug 2015 03:29:25 PM PDT
+update=Mon 10 Aug 2015 05:32:05 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/win/MIC5504-3.3YM5
