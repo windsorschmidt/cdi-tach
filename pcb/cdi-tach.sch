@@ -824,7 +824,6 @@ F 3 "" H 10825 1800 60  0000 C CNN
 	1    10825 1800
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 9550 2125
 NoConn ~ 10675 2000
 $Comp
 L +3.3V #PWR6
@@ -859,7 +858,6 @@ F 3 "" H 10575 2150 60  0000 C CNN
 	1    10575 2150
 	0    1    1    0   
 $EndComp
-NoConn ~ 9550 1725
 NoConn ~ 10675 1600
 Text GLabel 7625 2450 0    56   Input ~ 0
 BTN_A

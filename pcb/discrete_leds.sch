@@ -47,89 +47,617 @@ $EndDescr
 $Comp
 L LED-RESCUE-cdi-tach D?
 U 1 1 55CABF78
-P 5600 3350
-F 0 "D?" H 5600 3450 50  0000 C CNN
-F 1 "STATUS" H 5650 3250 50  0000 C CNN
-F 2 "" H 5600 3350 60  0000 C CNN
-F 3 "" H 5600 3350 60  0000 C CNN
-	1    5600 3350
-	1    0    0    -1  
+P 1200 3350
+F 0 "D?" H 1200 3450 50  0000 C CNN
+F 1 "TACH_01" H 1250 3250 50  0000 C CNN
+F 2 "" H 1200 3350 60  0000 C CNN
+F 3 "" H 1200 3350 60  0000 C CNN
+	1    1200 3350
+	0    -1   -1   0   
 $EndComp
-Text GLabel 6500 3875 2    56   Input ~ 0
-LED_BLANK
 $Comp
 L +3.3V #PWR?
 U 1 1 55CABFA9
-P 6000 3075
-F 0 "#PWR?" H 6000 2925 50  0001 C CNN
-F 1 "+3.3V" H 6000 3215 50  0000 C CNN
-F 2 "" H 6000 3075 60  0000 C CNN
-F 3 "" H 6000 3075 60  0000 C CNN
-	1    6000 3075
+P 1200 3050
+F 0 "#PWR?" H 1200 2900 50  0001 C CNN
+F 1 "+3.3V" H 1200 3190 50  0000 C CNN
+F 2 "" H 1200 3050 60  0000 C CNN
+F 3 "" H 1200 3050 60  0000 C CNN
+	1    1200 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4725 3875 0    56   Input ~ 0
+Text GLabel 1200 3550 3    56   Input ~ 0
 LED1_A
-Text GLabel 4725 3975 0    56   Input ~ 0
+Text GLabel 1500 3550 3    56   Input ~ 0
 LED1_B
-Text GLabel 4725 4075 0    56   Input ~ 0
+Text GLabel 1800 3550 3    56   Input ~ 0
 LED1_C
-Text GLabel 4725 4175 0    56   Input ~ 0
+Text GLabel 2100 3550 3    56   Input ~ 0
 LED1_D
-Text GLabel 4725 4275 0    56   Input ~ 0
+Text GLabel 2400 3550 3    56   Input ~ 0
 LED1_E
-Text GLabel 4725 4375 0    56   Input ~ 0
+Text GLabel 2700 3550 3    56   Input ~ 0
 LED1_F
-Text GLabel 4725 4475 0    56   Input ~ 0
+Text GLabel 3000 3550 3    56   Input ~ 0
 LED1_G
-Text GLabel 4725 4575 0    56   Input ~ 0
+Text GLabel 3300 3550 3    56   Input ~ 0
 LED1_DP
-Text GLabel 4975 4575 2    56   Input ~ 0
+Text GLabel 3600 3550 3    56   Input ~ 0
 LED2_A
-Text GLabel 4975 4475 2    56   Input ~ 0
+Text GLabel 3900 3550 3    56   Input ~ 0
 LED2_B
-Text GLabel 4975 4375 2    56   Input ~ 0
+Text GLabel 4200 3550 3    56   Input ~ 0
 LED2_C
-Text GLabel 4975 4275 2    56   Input ~ 0
+Text GLabel 4500 3550 3    56   Input ~ 0
 LED2_D
-Text GLabel 4975 4175 2    56   Input ~ 0
+Text GLabel 4800 3550 3    56   Input ~ 0
 LED2_E
-Text GLabel 4975 4075 2    56   Input ~ 0
+Text GLabel 5100 3550 3    56   Input ~ 0
 LED2_F
-Text GLabel 4975 3975 2    56   Input ~ 0
+Text GLabel 5400 3550 3    56   Input ~ 0
 LED2_G
-Text GLabel 4975 3875 2    56   Input ~ 0
+Text GLabel 5700 3550 3    56   Input ~ 0
 LED2_DP
-Text GLabel 6275 3875 0    56   Input ~ 0
+Text GLabel 6000 3550 3    56   Input ~ 0
 LED3_A
-Text GLabel 6275 3975 0    56   Input ~ 0
+Text GLabel 6300 3550 3    56   Input ~ 0
 LED3_B
-Text GLabel 6275 4075 0    56   Input ~ 0
+Text GLabel 6600 3550 3    56   Input ~ 0
 LED3_C
-Text GLabel 6275 4175 0    56   Input ~ 0
+Text GLabel 6900 3550 3    56   Input ~ 0
 LED3_D
-Text GLabel 6275 4275 0    56   Input ~ 0
+Text GLabel 7200 3550 3    56   Input ~ 0
 LED3_E
-Text GLabel 6275 4375 0    56   Input ~ 0
+Text GLabel 7500 3550 3    56   Input ~ 0
 LED3_F
-Text GLabel 6275 4475 0    56   Input ~ 0
+Text GLabel 7800 3550 3    56   Input ~ 0
 LED3_G
-Text GLabel 6275 4575 0    56   Input ~ 0
+Text GLabel 8100 3550 3    56   Input ~ 0
 LED3_DP
-Text GLabel 6500 4675 2    56   Input ~ 0
+Text GLabel 8400 3550 3    56   Input ~ 0
 LED4_A
-Text GLabel 6500 4575 2    56   Input ~ 0
+Text GLabel 8700 3550 3    56   Input ~ 0
 LED4_B
-Text GLabel 6500 4475 2    56   Input ~ 0
+Text GLabel 9000 3550 3    56   Input ~ 0
 LED4_C
-Text GLabel 6500 4375 2    56   Input ~ 0
+Text GLabel 9300 3550 3    56   Input ~ 0
 LED4_D
-Text GLabel 6500 4275 2    56   Input ~ 0
+Text GLabel 9600 3550 3    56   Input ~ 0
 LED4_E
-Text GLabel 6500 4175 2    56   Input ~ 0
+Text GLabel 9900 3550 3    56   Input ~ 0
 LED4_F
-Text GLabel 6500 4075 2    56   Input ~ 0
+Text GLabel 10200 3550 3    56   Input ~ 0
 LED4_G
-Text GLabel 6500 3975 2    56   Input ~ 0
+Text GLabel 10500 3550 3    56   Input ~ 0
 LED4_DP
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2691
+P 1500 3350
+F 0 "D?" H 1500 3450 50  0000 C CNN
+F 1 "TACH_02" H 1550 3250 50  0000 C CNN
+F 2 "" H 1500 3350 60  0000 C CNN
+F 3 "" H 1500 3350 60  0000 C CNN
+	1    1500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA273B
+P 1800 3350
+F 0 "D?" H 1800 3450 50  0000 C CNN
+F 1 "TACH_03" H 1850 3250 50  0000 C CNN
+F 2 "" H 1800 3350 60  0000 C CNN
+F 3 "" H 1800 3350 60  0000 C CNN
+	1    1800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2760
+P 2100 3350
+F 0 "D?" H 2100 3450 50  0000 C CNN
+F 1 "TACH_04" H 2150 3250 50  0000 C CNN
+F 2 "" H 2100 3350 60  0000 C CNN
+F 3 "" H 2100 3350 60  0000 C CNN
+	1    2100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2858
+P 2400 3350
+F 0 "D?" H 2400 3450 50  0000 C CNN
+F 1 "TACH_05" H 2450 3250 50  0000 C CNN
+F 2 "" H 2400 3350 60  0000 C CNN
+F 3 "" H 2400 3350 60  0000 C CNN
+	1    2400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA285E
+P 2700 3350
+F 0 "D?" H 2700 3450 50  0000 C CNN
+F 1 "TACH_06" H 2750 3250 50  0000 C CNN
+F 2 "" H 2700 3350 60  0000 C CNN
+F 3 "" H 2700 3350 60  0000 C CNN
+	1    2700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2864
+P 3000 3350
+F 0 "D?" H 3000 3450 50  0000 C CNN
+F 1 "TACH_07" H 3050 3250 50  0000 C CNN
+F 2 "" H 3000 3350 60  0000 C CNN
+F 3 "" H 3000 3350 60  0000 C CNN
+	1    3000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA286A
+P 3300 3350
+F 0 "D?" H 3300 3450 50  0000 C CNN
+F 1 "TACH_08" H 3350 3250 50  0000 C CNN
+F 2 "" H 3300 3350 60  0000 C CNN
+F 3 "" H 3300 3350 60  0000 C CNN
+	1    3300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2C90
+P 3600 3350
+F 0 "D?" H 3600 3450 50  0000 C CNN
+F 1 "TACH_09" H 3650 3250 50  0000 C CNN
+F 2 "" H 3600 3350 60  0000 C CNN
+F 3 "" H 3600 3350 60  0000 C CNN
+	1    3600 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2C96
+P 3900 3350
+F 0 "D?" H 3900 3450 50  0000 C CNN
+F 1 "TACH_10" H 3950 3250 50  0000 C CNN
+F 2 "" H 3900 3350 60  0000 C CNN
+F 3 "" H 3900 3350 60  0000 C CNN
+	1    3900 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2C9C
+P 4200 3350
+F 0 "D?" H 4200 3450 50  0000 C CNN
+F 1 "TACH_11" H 4250 3250 50  0000 C CNN
+F 2 "" H 4200 3350 60  0000 C CNN
+F 3 "" H 4200 3350 60  0000 C CNN
+	1    4200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2CA2
+P 4500 3350
+F 0 "D?" H 4500 3450 50  0000 C CNN
+F 1 "TACH_12" H 4550 3250 50  0000 C CNN
+F 2 "" H 4500 3350 60  0000 C CNN
+F 3 "" H 4500 3350 60  0000 C CNN
+	1    4500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2CA8
+P 4800 3350
+F 0 "D?" H 4800 3450 50  0000 C CNN
+F 1 "TACH_13" H 4850 3250 50  0000 C CNN
+F 2 "" H 4800 3350 60  0000 C CNN
+F 3 "" H 4800 3350 60  0000 C CNN
+	1    4800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2CAE
+P 5100 3350
+F 0 "D?" H 5100 3450 50  0000 C CNN
+F 1 "TACH_14" H 5150 3250 50  0000 C CNN
+F 2 "" H 5100 3350 60  0000 C CNN
+F 3 "" H 5100 3350 60  0000 C CNN
+	1    5100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2CB4
+P 5400 3350
+F 0 "D?" H 5400 3450 50  0000 C CNN
+F 1 "TACH_15" H 5450 3250 50  0000 C CNN
+F 2 "" H 5400 3350 60  0000 C CNN
+F 3 "" H 5400 3350 60  0000 C CNN
+	1    5400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA2CBA
+P 5700 3350
+F 0 "D?" H 5700 3450 50  0000 C CNN
+F 1 "TACH_16" H 5750 3250 50  0000 C CNN
+F 2 "" H 5700 3350 60  0000 C CNN
+F 3 "" H 5700 3350 60  0000 C CNN
+	1    5700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4200
+P 6000 3350
+F 0 "D?" H 6000 3450 50  0000 C CNN
+F 1 "TACH_17" H 6050 3250 50  0000 C CNN
+F 2 "" H 6000 3350 60  0000 C CNN
+F 3 "" H 6000 3350 60  0000 C CNN
+	1    6000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4206
+P 6300 3350
+F 0 "D?" H 6300 3450 50  0000 C CNN
+F 1 "TACH_18" H 6350 3250 50  0000 C CNN
+F 2 "" H 6300 3350 60  0000 C CNN
+F 3 "" H 6300 3350 60  0000 C CNN
+	1    6300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA420C
+P 6600 3350
+F 0 "D?" H 6600 3450 50  0000 C CNN
+F 1 "TACH_19" H 6650 3250 50  0000 C CNN
+F 2 "" H 6600 3350 60  0000 C CNN
+F 3 "" H 6600 3350 60  0000 C CNN
+	1    6600 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4212
+P 6900 3350
+F 0 "D?" H 6900 3450 50  0000 C CNN
+F 1 "TACH_20" H 6950 3250 50  0000 C CNN
+F 2 "" H 6900 3350 60  0000 C CNN
+F 3 "" H 6900 3350 60  0000 C CNN
+	1    6900 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4218
+P 7200 3350
+F 0 "D?" H 7200 3450 50  0000 C CNN
+F 1 "TACH_21" H 7250 3250 50  0000 C CNN
+F 2 "" H 7200 3350 60  0000 C CNN
+F 3 "" H 7200 3350 60  0000 C CNN
+	1    7200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA421E
+P 7500 3350
+F 0 "D?" H 7500 3450 50  0000 C CNN
+F 1 "TACH_22" H 7550 3250 50  0000 C CNN
+F 2 "" H 7500 3350 60  0000 C CNN
+F 3 "" H 7500 3350 60  0000 C CNN
+	1    7500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4224
+P 7800 3350
+F 0 "D?" H 7800 3450 50  0000 C CNN
+F 1 "TACH_23" H 7850 3250 50  0000 C CNN
+F 2 "" H 7800 3350 60  0000 C CNN
+F 3 "" H 7800 3350 60  0000 C CNN
+	1    7800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA422A
+P 8100 3350
+F 0 "D?" H 8100 3450 50  0000 C CNN
+F 1 "TACH_24" H 8150 3250 50  0000 C CNN
+F 2 "" H 8100 3350 60  0000 C CNN
+F 3 "" H 8100 3350 60  0000 C CNN
+	1    8100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4230
+P 8400 3350
+F 0 "D?" H 8400 3450 50  0000 C CNN
+F 1 "TACH_25" H 8450 3250 50  0000 C CNN
+F 2 "" H 8400 3350 60  0000 C CNN
+F 3 "" H 8400 3350 60  0000 C CNN
+	1    8400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4236
+P 8700 3350
+F 0 "D?" H 8700 3450 50  0000 C CNN
+F 1 "TACH_26" H 8750 3250 50  0000 C CNN
+F 2 "" H 8700 3350 60  0000 C CNN
+F 3 "" H 8700 3350 60  0000 C CNN
+	1    8700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA423C
+P 9000 3350
+F 0 "D?" H 9000 3450 50  0000 C CNN
+F 1 "TACH_27" H 9050 3250 50  0000 C CNN
+F 2 "" H 9000 3350 60  0000 C CNN
+F 3 "" H 9000 3350 60  0000 C CNN
+	1    9000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4242
+P 9300 3350
+F 0 "D?" H 9300 3450 50  0000 C CNN
+F 1 "TACH_28" H 9350 3250 50  0000 C CNN
+F 2 "" H 9300 3350 60  0000 C CNN
+F 3 "" H 9300 3350 60  0000 C CNN
+	1    9300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4248
+P 9600 3350
+F 0 "D?" H 9600 3450 50  0000 C CNN
+F 1 "TACH_29" H 9650 3250 50  0000 C CNN
+F 2 "" H 9600 3350 60  0000 C CNN
+F 3 "" H 9600 3350 60  0000 C CNN
+	1    9600 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA424E
+P 9900 3350
+F 0 "D?" H 9900 3450 50  0000 C CNN
+F 1 "TACH_30" H 9950 3250 50  0000 C CNN
+F 2 "" H 9900 3350 60  0000 C CNN
+F 3 "" H 9900 3350 60  0000 C CNN
+	1    9900 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA4254
+P 10200 3350
+F 0 "D?" H 10200 3450 50  0000 C CNN
+F 1 "TACH_31" H 10250 3250 50  0000 C CNN
+F 2 "" H 10200 3350 60  0000 C CNN
+F 3 "" H 10200 3350 60  0000 C CNN
+	1    10200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-cdi-tach D?
+U 1 1 55CA425A
+P 10500 3350
+F 0 "D?" H 10500 3450 50  0000 C CNN
+F 1 "TACH_32" H 10550 3250 50  0000 C CNN
+F 2 "" H 10500 3350 60  0000 C CNN
+F 3 "" H 10500 3350 60  0000 C CNN
+	1    10500 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2100 3100
+Wire Wire Line
+	2100 3150 2100 3100
+Connection ~ 1800 3100
+Wire Wire Line
+	1800 3150 1800 3100
+Connection ~ 1500 3100
+Wire Wire Line
+	1500 3150 1500 3100
+Connection ~ 1200 3100
+Wire Wire Line
+	10500 3100 10500 3150
+Wire Wire Line
+	1200 3100 10500 3100
+Wire Wire Line
+	1200 3050 1200 3150
+Wire Wire Line
+	2400 3150 2400 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2700 3150 2700 3100
+Connection ~ 2700 3100
+Wire Wire Line
+	3000 3150 3000 3100
+Connection ~ 3000 3100
+Wire Wire Line
+	3300 3150 3300 3100
+Connection ~ 3300 3100
+Wire Wire Line
+	3600 3150 3600 3100
+Connection ~ 3600 3100
+Wire Wire Line
+	3900 3150 3900 3100
+Connection ~ 3900 3100
+Wire Wire Line
+	4200 3150 4200 3100
+Connection ~ 4200 3100
+Wire Wire Line
+	4500 3150 4500 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4800 3150 4800 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	5100 3150 5100 3100
+Connection ~ 5100 3100
+Wire Wire Line
+	5400 3150 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	5700 3150 5700 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	6000 3150 6000 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6300 3150 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6600 3150 6600 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	6900 3150 6900 3100
+Connection ~ 6900 3100
+Wire Wire Line
+	7200 3150 7200 3100
+Connection ~ 7200 3100
+Wire Wire Line
+	7500 3150 7500 3100
+Connection ~ 7500 3100
+Wire Wire Line
+	7800 3150 7800 3100
+Connection ~ 7800 3100
+Wire Wire Line
+	8100 3150 8100 3100
+Connection ~ 8100 3100
+Wire Wire Line
+	8400 3150 8400 3100
+Connection ~ 8400 3100
+Wire Wire Line
+	8700 3150 8700 3100
+Connection ~ 8700 3100
+Wire Wire Line
+	9000 3150 9000 3100
+Connection ~ 9000 3100
+Wire Wire Line
+	9300 3150 9300 3100
+Connection ~ 9300 3100
+Wire Wire Line
+	9600 3150 9600 3100
+Connection ~ 9600 3100
+Wire Wire Line
+	9900 3150 9900 3100
+Connection ~ 9900 3100
+Wire Wire Line
+	10200 3150 10200 3100
+Connection ~ 10200 3100
+$Comp
+L C C?
+U 1 1 55CC0C3E
+P 5500 4700
+F 0 "C?" H 5525 4800 50  0000 L CNN
+F 1 "1uF" H 5525 4600 50  0000 L CNN
+F 2 "" H 5538 4550 30  0000 C CNN
+F 3 "" H 5500 4700 60  0000 C CNN
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55CC151E
+P 5800 4700
+F 0 "C?" H 5825 4800 50  0000 L CNN
+F 1 "1uF" H 5825 4600 50  0000 L CNN
+F 2 "" H 5838 4550 30  0000 C CNN
+F 3 "" H 5800 4700 60  0000 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55CC15D8
+P 6100 4700
+F 0 "C?" H 6125 4800 50  0000 L CNN
+F 1 "1uF" H 6125 4600 50  0000 L CNN
+F 2 "" H 6138 4550 30  0000 C CNN
+F 3 "" H 6100 4700 60  0000 C CNN
+	1    6100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55CC15DE
+P 6400 4700
+F 0 "C?" H 6425 4800 50  0000 L CNN
+F 1 "1uF" H 6425 4600 50  0000 L CNN
+F 2 "" H 6438 4550 30  0000 C CNN
+F 3 "" H 6400 4700 60  0000 C CNN
+	1    6400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 55CC162C
+P 5500 4450
+F 0 "#PWR?" H 5500 4300 50  0001 C CNN
+F 1 "+3.3V" H 5500 4590 50  0000 C CNN
+F 2 "" H 5500 4450 60  0000 C CNN
+F 3 "" H 5500 4450 60  0000 C CNN
+	1    5500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4450 5500 4550
+Wire Wire Line
+	5500 4500 6400 4500
+Wire Wire Line
+	6400 4500 6400 4550
+Connection ~ 5500 4500
+Wire Wire Line
+	5800 4500 5800 4550
+Connection ~ 5800 4500
+Wire Wire Line
+	6100 4500 6100 4550
+Connection ~ 6100 4500
+$Comp
+L GND #PWR?
+U 1 1 55CC19B3
+P 5500 4950
+F 0 "#PWR?" H 5500 4700 50  0001 C CNN
+F 1 "GND" H 5500 4800 50  0000 C CNN
+F 2 "" H 5500 4950 60  0000 C CNN
+F 3 "" H 5500 4950 60  0000 C CNN
+	1    5500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4950 5500 4850
+Wire Wire Line
+	5500 4900 6400 4900
+Wire Wire Line
+	6400 4900 6400 4850
+Connection ~ 5500 4900
+Wire Wire Line
+	6100 4850 6100 4900
+Connection ~ 6100 4900
+Wire Wire Line
+	5800 4850 5800 4900
+Connection ~ 5800 4900
 $EndSCHEMATC
