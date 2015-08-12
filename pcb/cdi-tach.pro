@@ -1,4 +1,4 @@
-update=Mon 10 Aug 2015 05:32:05 PM PDT
+update=Wed 12 Aug 2015 02:13:59 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=/home/win/working/fc2/pcb/fc2
