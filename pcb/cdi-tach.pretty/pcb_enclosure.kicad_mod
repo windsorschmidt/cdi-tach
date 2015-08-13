@@ -1,8 +1,8 @@
-(module pcb_enclosure (layer F.Cu) (tedit 55CBF73C)
-  (fp_text reference ENC** (at 0 -6) (layer F.SilkS)
+(module pcb_enclosure (layer F.Cu) (tedit 55CCB9DE)
+  (fp_text reference ENC1 (at 0 -6) (layer Eco1.User)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value pcb_enclosure (at 0 6) (layer F.Fab)
+  (fp_text value PCB_enclosure (at 0 6.096) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -5 5) (end -5 -5) (layer Eco1.User) (width 0.3))

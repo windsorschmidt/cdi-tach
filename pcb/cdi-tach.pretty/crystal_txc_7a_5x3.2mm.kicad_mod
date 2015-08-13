@@ -1,8 +1,8 @@
-(module crystal_txc_7a_5x3.2mm (layer F.Cu) (tedit 55CBB229)
-  (fp_text reference Y** (at 0 0) (layer F.SilkS)
+(module crystal_txc_7a_5x3.2mm (layer F.Cu) (tedit 55CCB571)
+  (fp_text reference Y1 (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value crystal_txc_7a_5x3.2mm (at 0 1.5) (layer F.Fab)
+  (fp_text value 7A-8.000MAAE-T (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.5 -1.1) (end 2.5 1.1) (layer Eco1.User) (width 0.15))
