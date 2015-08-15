@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-07-28 BZR 6012, Git 63b0e63)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-08-10 BZR 6083, Git 65ebfe1)-product")
 
   (general
     (links 186)
     (no_connects 168)
-    (area 99.924999 48.744999 214.775001 116.071)
+    (area 99.924999 48.544999 214.975001 116.271)
     (thickness 1.6)
     (drawings 9)
     (tracks 0)
@@ -178,7 +178,6 @@
     (add_net BTN_D)
     (add_net CONF_1)
     (add_net CONF_2)
-    (add_net GND)
     (add_net LCD_CS)
     (add_net LCD_RST)
     (add_net LED1_A)
@@ -272,6 +271,16 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net +5V)
+  )
+
+  (net_class pwr_gnd ""
+    (clearance 0.25)
+    (trace_width 0.35)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net GND)
   )
 
   (module cdi-tach:badger_face_logo (layer B.Cu) (tedit 0) (tstamp 55CBFAB6)
