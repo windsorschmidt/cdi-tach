@@ -1,8 +1,8 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-08-02 BZR 6038, Git 7b39b1b)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-07-28 BZR 6012, Git 63b0e63)-product")
 
   (general
     (links 186)
-    (no_connects 134)
+    (no_connects 168)
     (area 99.924999 48.744999 214.775001 116.071)
     (thickness 1.6)
     (drawings 9)
@@ -20,7 +20,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -37,8 +37,8 @@
   )
 
   (setup
-    (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (last_trace_width 0.35)
+    (trace_clearance 0.25)
     (zone_clearance 0.36)
     (zone_45_only no)
     (trace_min 0.2)
@@ -166,15 +166,12 @@
   (net 73 "Net-(U4-Pad22)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
-    (trace_width 0.25)
+    (clearance 0.25)
+    (trace_width 0.35)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +12V)
-    (add_net +3V3)
-    (add_net +5V)
     (add_net BTN_A)
     (add_net BTN_B)
     (add_net BTN_C)
@@ -245,6 +242,36 @@
     (add_net TACH)
     (add_net USART_RX)
     (add_net USART_TX)
+  )
+
+  (net_class pwr_12v ""
+    (clearance 0.4)
+    (trace_width 1.5)
+    (via_dia 1)
+    (via_drill 0.8)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net +12V)
+  )
+
+  (net_class pwr_3v3 ""
+    (clearance 0.25)
+    (trace_width 0.35)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net +3V3)
+  )
+
+  (net_class pwr_5v ""
+    (clearance 0.3)
+    (trace_width 0.6)
+    (via_dia 0.8)
+    (via_drill 0.6)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net +5V)
   )
 
   (module cdi-tach:badger_face_logo (layer B.Cu) (tedit 0) (tstamp 55CBFAB6)
@@ -1615,7 +1642,7 @@
   )
 
   (module cdi-tach:LED_0805 (layer F.Cu) (tedit 540A7AEB) (tstamp 55CBFB40)
-    (at 172.5 93.5)
+    (at 172.5 94.5)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /55C2551A)
@@ -1936,7 +1963,7 @@
   )
 
   (module Connect:PINTST (layer F.Cu) (tedit 55CE7FA1) (tstamp 55CBFC8D)
-    (at 162.75 56.5)
+    (at 163.5 57)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path /55CFFE8B)
@@ -2165,7 +2192,7 @@
   )
 
   (module Resistors_SMD:R_Cat16-4 (layer F.Cu) (tedit 0) (tstamp 55CBFD2D)
-    (at 150 106.5 270)
+    (at 150 103 270)
     (descr "SMT resistor net, Bourns CAT16 series, 4 way")
     (path /55C9C1DF)
     (fp_text reference RP2 (at 0 -2 270) (layer F.SilkS)
@@ -2345,7 +2372,7 @@
   )
 
   (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5 (layer F.Cu) (tedit 55CCB660) (tstamp 55CBFD62)
-    (at 173.5 87.5 270)
+    (at 172.5 88 270)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /55C93092)
@@ -2950,7 +2977,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 54189DEE) (tstamp 55CBFCE5)
-    (at 172.5 91.5)
+    (at 172.5 92.5)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /55C25514)
@@ -3298,7 +3325,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 541A9B8D) (tstamp 55CBFAE0)
-    (at 178 91.5)
+    (at 178 92.5)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /55C94A7B)
@@ -3692,7 +3719,7 @@
   (gr_line (start 100 111) (end 100 57) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 197 114) (end 103 114) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 55CCBA79) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 55CCBA79) (hatch edge 0.508)
     (connect_pads (clearance 0.36))
     (min_thickness 0.38)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.65) (smoothing fillet) (radius 0.3))
@@ -5060,7 +5087,7 @@
       )
     )
   )
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 55CCBA79) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 55CCBA79) (hatch edge 0.508)
     (connect_pads (clearance 0.36))
     (min_thickness 0.38)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.65) (smoothing fillet) (radius 0.3))
