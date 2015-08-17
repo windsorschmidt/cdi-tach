@@ -5,6 +5,11 @@ D 7 segments display - Common anode
 K DISPLAY LED
 $ENDCMP
 #
+$CMP ACSA08-51SEKWA
+D Kingbright surface-mount 7-segment common-anode LED display
+K DISPLAY LED
+$ENDCMP
+#
 $CMP AP2204K-3.3TRG1
 D APE8865Y5-12-HF-3, WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 K 150mA LDO Regulator Fixed Positive

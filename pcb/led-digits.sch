@@ -1,0 +1,518 @@
+EESchema Schematic File Version 2
+LIBS:cdi-tach
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cdi-tach-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "CDI Tachometer"
+Date "2015-08-09"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CAT4016 U5
+U 1 1 55D23DFA
+P 7325 5300
+F 0 "U5" H 7325 5350 50  0000 C CNN
+F 1 "CAT4016" H 7325 5250 50  0000 C CNN
+F 2 "cdi-tach:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 7325 4750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7325 4650 50  0001 C CNN
+	1    7325 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAT4016 U4
+U 1 1 55D23DFB
+P 4325 5300
+F 0 "U4" H 4325 5350 50  0000 C CNN
+F 1 "CAT4016" H 4325 5250 50  0000 C CNN
+F 2 "cdi-tach:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 4325 4750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4325 4650 50  0001 C CNN
+	1    4325 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 55D23DFD
+P 5425 4550
+F 0 "R9" V 5360 4550 40  0000 C CNN
+F 1 "3K" V 5495 4550 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5355 4525 30  0001 C CNN
+F 3 "" H 5425 4550 30  0000 C CNN
+	1    5425 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 1650 1    56   Input ~ 0
+LED1_A
+Text GLabel 3475 5050 0    56   Input ~ 0
+LED_LATCH
+Text GLabel 5175 5050 2    56   Input ~ 0
+LED_BLANK
+Text GLabel 8175 5050 2    56   Input ~ 0
+LED_BLANK
+Text GLabel 6475 5050 0    56   Input ~ 0
+LED_LATCH
+NoConn ~ 8175 4950
+$Comp
+L GND #PWR047
+U 1 1 55D23DFE
+P 5425 4700
+F 0 "#PWR047" H 5425 4450 50  0001 C CNN
+F 1 "GND" H 5425 4550 50  0000 C CNN
+F 2 "" H 5425 4700 60  0000 C CNN
+F 3 "" H 5425 4700 60  0000 C CNN
+	1    5425 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 55D23DFF
+P 5675 4550
+F 0 "C14" H 5700 4650 50  0000 L CNN
+F 1 "1uF" H 5700 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5713 4400 30  0001 C CNN
+F 3 "" H 5675 4550 60  0000 C CNN
+	1    5675 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR048
+U 1 1 55D23E00
+P 5675 4300
+F 0 "#PWR048" H 5675 4150 50  0001 C CNN
+F 1 "+3.3V" H 5675 4440 50  0000 C CNN
+F 2 "" H 5675 4300 60  0000 C CNN
+F 3 "" H 5675 4300 60  0000 C CNN
+	1    5675 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 55D23E01
+P 5675 4700
+F 0 "#PWR049" H 5675 4450 50  0001 C CNN
+F 1 "GND" H 5675 4550 50  0000 C CNN
+F 2 "" H 5675 4700 60  0000 C CNN
+F 3 "" H 5675 4700 60  0000 C CNN
+	1    5675 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6475 4950 0    56   Input ~ 0
+SPI_SCK
+$Comp
+L R R10
+U 1 1 55D23E02
+P 8425 4550
+F 0 "R10" V 8360 4550 40  0000 C CNN
+F 1 "3K" V 8495 4550 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8355 4525 30  0001 C CNN
+F 3 "" H 8425 4550 30  0000 C CNN
+	1    8425 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 55D23E03
+P 8425 4700
+F 0 "#PWR050" H 8425 4450 50  0001 C CNN
+F 1 "GND" H 8425 4550 50  0000 C CNN
+F 2 "" H 8425 4700 60  0000 C CNN
+F 3 "" H 8425 4700 60  0000 C CNN
+	1    8425 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 55D23E04
+P 8675 4550
+F 0 "C15" H 8700 4650 50  0000 L CNN
+F 1 "1uF" H 8700 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8713 4400 30  0001 C CNN
+F 3 "" H 8675 4550 60  0000 C CNN
+	1    8675 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR051
+U 1 1 55D23E05
+P 8675 4300
+F 0 "#PWR051" H 8675 4150 50  0001 C CNN
+F 1 "+3.3V" H 8675 4440 50  0000 C CNN
+F 2 "" H 8675 4300 60  0000 C CNN
+F 3 "" H 8675 4300 60  0000 C CNN
+	1    8675 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 55D23E06
+P 8675 4700
+F 0 "#PWR052" H 8675 4450 50  0001 C CNN
+F 1 "GND" H 8675 4550 50  0000 C CNN
+F 2 "" H 8675 4700 60  0000 C CNN
+F 3 "" H 8675 4700 60  0000 C CNN
+	1    8675 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3475 4850 0    56   Input ~ 0
+SPI_MOSI
+$Comp
+L GND #PWR053
+U 1 1 55D23E07
+P 3325 4550
+F 0 "#PWR053" H 3325 4300 50  0001 C CNN
+F 1 "GND" H 3325 4400 50  0000 C CNN
+F 2 "" H 3325 4550 60  0000 C CNN
+F 3 "" H 3325 4550 60  0000 C CNN
+	1    3325 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3475 4950 0    56   Input ~ 0
+SPI_SCK
+$Comp
+L GND #PWR054
+U 1 1 55D23E08
+P 6325 4550
+F 0 "#PWR054" H 6325 4300 50  0001 C CNN
+F 1 "GND" H 6325 4400 50  0000 C CNN
+F 2 "" H 6325 4550 60  0000 C CNN
+F 3 "" H 6325 4550 60  0000 C CNN
+	1    6325 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 1650 1    56   Input ~ 0
+LED1_B
+Text GLabel 4650 3250 3    56   Input ~ 0
+LED1_C
+Text GLabel 4550 3250 3    56   Input ~ 0
+LED1_D
+Text GLabel 4450 3250 3    56   Input ~ 0
+LED1_E
+Text GLabel 4450 1650 1    56   Input ~ 0
+LED1_F
+Text GLabel 4350 1650 1    56   Input ~ 0
+LED1_G
+Text GLabel 4750 3250 3    56   Input ~ 0
+LED1_DP
+Text GLabel 5400 1650 1    56   Input ~ 0
+LED2_A
+Text GLabel 5500 1650 1    56   Input ~ 0
+LED2_B
+Text GLabel 5500 3250 3    56   Input ~ 0
+LED2_C
+Text GLabel 5400 3250 3    56   Input ~ 0
+LED2_D
+Text GLabel 5300 3250 3    56   Input ~ 0
+LED2_E
+Text GLabel 5300 1650 1    56   Input ~ 0
+LED2_F
+Text GLabel 5200 1650 1    56   Input ~ 0
+LED2_G
+Text GLabel 5600 3250 3    56   Input ~ 0
+LED2_DP
+Text GLabel 6250 1650 1    56   Input ~ 0
+LED3_A
+Text GLabel 6350 1650 1    56   Input ~ 0
+LED3_B
+Text GLabel 6350 3250 3    56   Input ~ 0
+LED3_C
+Text GLabel 6250 3250 3    56   Input ~ 0
+LED3_D
+Text GLabel 6150 3250 3    56   Input ~ 0
+LED3_E
+Text GLabel 6150 1650 1    56   Input ~ 0
+LED3_F
+Text GLabel 6050 1650 1    56   Input ~ 0
+LED3_G
+Text GLabel 6450 3250 3    56   Input ~ 0
+LED3_DP
+Text GLabel 7100 1650 1    56   Input ~ 0
+LED4_A
+Text GLabel 7200 1650 1    56   Input ~ 0
+LED4_B
+Text GLabel 7200 3250 3    56   Input ~ 0
+LED4_C
+Text GLabel 7100 3250 3    56   Input ~ 0
+LED4_D
+Text GLabel 7000 3250 3    56   Input ~ 0
+LED4_E
+Text GLabel 7000 1650 1    56   Input ~ 0
+LED4_F
+Text GLabel 6900 1650 1    56   Input ~ 0
+LED4_G
+Text GLabel 7300 3250 3    56   Input ~ 0
+LED4_DP
+Text Notes 7700 2150 0    60   ~ 0
+7-segment LED x4, common-anode.\nCAT4016 current set with resistor at\nRSET. e.g. RSET = 3KOhm -> 30mA.
+Text GLabel 3475 5750 0    56   Input ~ 0
+LED1_A
+Text GLabel 3475 5850 0    56   Input ~ 0
+LED1_B
+Text GLabel 3475 5250 0    56   Input ~ 0
+LED1_C
+Text GLabel 3475 5350 0    56   Input ~ 0
+LED1_D
+Text GLabel 3475 5450 0    56   Input ~ 0
+LED1_E
+Text GLabel 3475 5650 0    56   Input ~ 0
+LED1_F
+Text GLabel 3475 5550 0    56   Input ~ 0
+LED1_G
+Text GLabel 3475 5150 0    56   Input ~ 0
+LED1_DP
+Text GLabel 5175 5750 2    56   Input ~ 0
+LED2_A
+Text GLabel 5175 5850 2    56   Input ~ 0
+LED2_B
+Text GLabel 5175 5250 2    56   Input ~ 0
+LED2_C
+Text GLabel 5175 5350 2    56   Input ~ 0
+LED2_D
+Text GLabel 5175 5450 2    56   Input ~ 0
+LED2_E
+Text GLabel 5175 5650 2    56   Input ~ 0
+LED2_F
+Text GLabel 5175 5550 2    56   Input ~ 0
+LED2_G
+Text GLabel 5175 5150 2    56   Input ~ 0
+LED2_DP
+Text GLabel 6475 5750 0    56   Input ~ 0
+LED3_A
+Text GLabel 6475 5850 0    56   Input ~ 0
+LED3_B
+Text GLabel 6475 5250 0    56   Input ~ 0
+LED3_C
+Text GLabel 6475 5350 0    56   Input ~ 0
+LED3_D
+Text GLabel 6475 5450 0    56   Input ~ 0
+LED3_E
+Text GLabel 6475 5650 0    56   Input ~ 0
+LED3_F
+Text GLabel 6475 5550 0    56   Input ~ 0
+LED3_G
+Text GLabel 6475 5150 0    56   Input ~ 0
+LED3_DP
+Text GLabel 8175 5750 2    56   Input ~ 0
+LED4_A
+Text GLabel 8175 5850 2    56   Input ~ 0
+LED4_B
+Text GLabel 8175 5250 2    56   Input ~ 0
+LED4_C
+Text GLabel 8175 5350 2    56   Input ~ 0
+LED4_D
+Text GLabel 8175 5450 2    56   Input ~ 0
+LED4_E
+Text GLabel 8175 5650 2    56   Input ~ 0
+LED4_F
+Text GLabel 8175 5550 2    56   Input ~ 0
+LED4_G
+Text GLabel 8175 5150 2    56   Input ~ 0
+LED4_DP
+Text Notes 7025 7000 0    51   ~ 0
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2.\n(http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+Wire Wire Line
+	5175 4950 5825 4950
+Wire Wire Line
+	5825 4950 5825 4850
+Wire Wire Line
+	5825 4850 6475 4850
+Wire Wire Line
+	5175 4850 5275 4850
+Wire Wire Line
+	5275 4850 5275 4400
+Wire Wire Line
+	5275 4400 5425 4400
+Wire Wire Line
+	5175 4300 5175 4750
+Wire Wire Line
+	5175 4300 5675 4300
+Wire Wire Line
+	5675 4300 5675 4400
+Wire Wire Line
+	8175 4850 8275 4850
+Wire Wire Line
+	8275 4850 8275 4400
+Wire Wire Line
+	8275 4400 8425 4400
+Wire Wire Line
+	8175 4300 8675 4300
+Wire Wire Line
+	8675 4300 8675 4400
+Wire Wire Line
+	8175 4300 8175 4750
+Wire Wire Line
+	3325 4550 3475 4550
+Wire Wire Line
+	3475 4550 3475 4750
+Wire Wire Line
+	6325 4550 6475 4550
+Wire Wire Line
+	6475 4550 6475 4750
+$Comp
+L +5V #PWR055
+U 1 1 55D23E49
+P 4750 1650
+F 0 "#PWR055" H 4750 1500 50  0001 C CNN
+F 1 "+5V" H 4750 1790 50  0000 C CNN
+F 2 "" H 4750 1650 60  0000 C CNN
+F 3 "" H 4750 1650 60  0000 C CNN
+	1    4750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L ACSA08-51SEKWA LED1
+U 1 1 55D12B8D
+P 4550 2450
+F 0 "LED1" V 4200 2450 60  0000 C CNN
+F 1 "ACSA08-51SEKWA" V 4900 2450 60  0000 C CNN
+F 2 "cdi-tach:ACSA08-51SEKWA" H 4550 2450 60  0001 C CNN
+F 3 "" H 4550 2450 60  0000 C CNN
+	1    4550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR056
+U 1 1 55D133B1
+P 4350 3250
+F 0 "#PWR056" H 4350 3100 50  0001 C CNN
+F 1 "+5V" H 4350 3390 50  0000 C CNN
+F 2 "" H 4350 3250 60  0000 C CNN
+F 3 "" H 4350 3250 60  0000 C CNN
+	1    4350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ACSA08-51SEKWA LED2
+U 1 1 55D1397E
+P 5400 2450
+F 0 "LED2" V 5050 2450 60  0000 C CNN
+F 1 "ACSA08-51SEKWA" V 5750 2450 60  0000 C CNN
+F 2 "cdi-tach:ACSA08-51SEKWA" H 5400 2450 60  0001 C CNN
+F 3 "" H 5400 2450 60  0000 C CNN
+	1    5400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACSA08-51SEKWA LED3
+U 1 1 55D139E0
+P 6250 2450
+F 0 "LED3" V 5900 2450 60  0000 C CNN
+F 1 "ACSA08-51SEKWA" V 6600 2450 60  0000 C CNN
+F 2 "cdi-tach:ACSA08-51SEKWA" H 6250 2450 60  0001 C CNN
+F 3 "" H 6250 2450 60  0000 C CNN
+	1    6250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACSA08-51SEKWA LED4
+U 1 1 55D13A35
+P 7100 2450
+F 0 "LED4" V 6750 2450 60  0000 C CNN
+F 1 "ACSA08-51SEKWA" V 7450 2450 60  0000 C CNN
+F 2 "cdi-tach:ACSA08-51SEKWA" H 7100 2450 60  0001 C CNN
+F 3 "" H 7100 2450 60  0000 C CNN
+	1    7100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR057
+U 1 1 55D13AC5
+P 7300 1650
+F 0 "#PWR057" H 7300 1500 50  0001 C CNN
+F 1 "+5V" H 7300 1790 50  0000 C CNN
+F 2 "" H 7300 1650 60  0000 C CNN
+F 3 "" H 7300 1650 60  0000 C CNN
+	1    7300 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR058
+U 1 1 55D13AFA
+P 6450 1650
+F 0 "#PWR058" H 6450 1500 50  0001 C CNN
+F 1 "+5V" H 6450 1790 50  0000 C CNN
+F 2 "" H 6450 1650 60  0000 C CNN
+F 3 "" H 6450 1650 60  0000 C CNN
+	1    6450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR059
+U 1 1 55D13B2F
+P 6900 3250
+F 0 "#PWR059" H 6900 3100 50  0001 C CNN
+F 1 "+5V" H 6900 3390 50  0000 C CNN
+F 2 "" H 6900 3250 60  0000 C CNN
+F 3 "" H 6900 3250 60  0000 C CNN
+	1    6900 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR060
+U 1 1 55D13B99
+P 6050 3250
+F 0 "#PWR060" H 6050 3100 50  0001 C CNN
+F 1 "+5V" H 6050 3390 50  0000 C CNN
+F 2 "" H 6050 3250 60  0000 C CNN
+F 3 "" H 6050 3250 60  0000 C CNN
+	1    6050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR061
+U 1 1 55D13BCE
+P 5200 3250
+F 0 "#PWR061" H 5200 3100 50  0001 C CNN
+F 1 "+5V" H 5200 3390 50  0000 C CNN
+F 2 "" H 5200 3250 60  0000 C CNN
+F 3 "" H 5200 3250 60  0000 C CNN
+	1    5200 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR062
+U 1 1 55D13C03
+P 5600 1650
+F 0 "#PWR062" H 5600 1500 50  0001 C CNN
+F 1 "+5V" H 5600 1790 50  0000 C CNN
+F 2 "" H 5600 1650 60  0000 C CNN
+F 3 "" H 5600 1650 60  0000 C CNN
+	1    5600 1650
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
