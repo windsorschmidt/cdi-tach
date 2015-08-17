@@ -3714,7 +3714,7 @@
       (net 42 LED4_G))
   )
 
-  (module Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 55CBFDB3)
+  (module cdi-tach:SOIC-24_7.5x15.4mm_Pitch1.27mm (layer F.Cu) (tedit 55D138CF) (tstamp 55CBFDB3)
     (at 158.5 82.25 180)
     (descr "24-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
@@ -3726,6 +3726,9 @@
     (fp_text value CAT4016 (at 0 8.8 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_line (start -4.7 -7.8) (end -5.3 -8.7) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.3 -8.7) (end -4.1 -8.7) (layer F.SilkS) (width 0.15))
+    (fp_line (start -4.1 -8.7) (end -4.7 -7.8) (layer F.SilkS) (width 0.15))
     (fp_line (start -5.95 -8.05) (end -5.95 8.05) (layer F.CrtYd) (width 0.05))
     (fp_line (start 5.95 -8.05) (end 5.95 8.05) (layer F.CrtYd) (width 0.05))
     (fp_line (start -5.95 -8.05) (end 5.95 -8.05) (layer F.CrtYd) (width 0.05))

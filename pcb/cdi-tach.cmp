@@ -1,0 +1,563 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun 16 Aug 2015 06:35:36 PM PDT
+
+BeginCmp
+TimeStamp = 55CBFDCF
+Path = /55D233FB/55D23DFA
+Reference = U5;
+ValeurCmp = CAT4016;
+IdModule  = Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAB6
+Path = /55CBD373/55CBFD20
+Reference = ART1;
+ValeurCmp = badger_logo;
+IdModule  = cdi-tach:badger_face_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFABA
+Path = /55CBD373/55CBFD86
+Reference = ART2;
+ValeurCmp = OSHW_logo;
+IdModule  = cdi-tach:Symbol_OSHW-Logo_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFABE
+Path = /55CBD373/55CBFDFB
+Reference = ART3;
+ValeurCmp = part_logo;
+IdModule  = cdi-tach:tacometer_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB3A
+Path = /55C2550E
+Reference = D1;
+ValeurCmp = SSB44;
+IdModule  = cdi-tach:Diode_SSB44;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB4C
+Path = /55B9CD53
+Reference = D4;
+ValeurCmp = STATUS;
+IdModule  = cdi-tach:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC1A
+Path = /55C25519
+Reference = F1;
+ValeurCmp = 3.7A Polyswitch;
+IdModule  = cdi-tach:Fuse_Resettable;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC20
+Path = /55CE120C
+Reference = GS1;
+ValeurCmp = SPD_PU;
+IdModule  = Connect:GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC34
+Path = /55C2550B
+Reference = L1;
+ValeurCmp = 6.8uH;
+IdModule  = cdi-tach:Inductor_Bourns_SRN6045_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC70
+Path = /55CBD373/55CBEAF7
+Reference = MNT1;
+ValeurCmp = zip_tie_slot;
+IdModule  = cdi-tach:MOUNT_ZIP_TIE;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC75
+Path = /55CBD373/55CBEA5E
+Reference = MNT2;
+ValeurCmp = 4mm_screw;
+IdModule  = cdi-tach:Screw_M4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC7A
+Path = /55CBD373/55CBE7E9
+Reference = MNT3;
+ValeurCmp = 4mm_screw;
+IdModule  = cdi-tach:Screw_M4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC7F
+Path = /55CBD373/55CBEA58
+Reference = MNT4;
+ValeurCmp = 4mm_screw;
+IdModule  = cdi-tach:Screw_M4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC84
+Path = /55CBD373/55CBE894
+Reference = MNT5;
+ValeurCmp = 4mm_screw;
+IdModule  = cdi-tach:Screw_M4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC88
+Path = /55CBD373/55CBEA6A
+Reference = MNT6;
+ValeurCmp = zip_tie_slot;
+IdModule  = cdi-tach:MOUNT_ZIP_TIE;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC8D
+Path = /55CFFE8B
+Reference = P1;
+ValeurCmp = GND;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC92
+Path = /55BF9681
+Reference = P2;
+ValeurCmp = SDA;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC97
+Path = /55BF967B
+Reference = P3;
+ValeurCmp = SCL;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCA8
+Path = /55CFB1F6
+Reference = P5;
+ValeurCmp = SPEED;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCAD
+Path = /55BDB584
+Reference = P6;
+ValeurCmp = TACH;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCB9
+Path = /55CA4F56
+Reference = P7;
+ValeurCmp = DEBUG;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCC5
+Path = /55BA42AE
+Reference = P8;
+ValeurCmp = LCD;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD21
+Path = /55BF7CE3
+Reference = RP1;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_Cat16-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD2D
+Path = /55C9C1DF
+Reference = RP2;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_Cat16-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD39
+Path = /55BA7943
+Reference = RP3;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_Cat16-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD41
+Path = /55C9BAA8
+Reference = SW1;
+ValeurCmp = A;
+IdModule  = cdi-tach:pushbutton_marquardt_6450;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD49
+Path = /55C9B53F
+Reference = SW2;
+ValeurCmp = B;
+IdModule  = cdi-tach:pushbutton_marquardt_6450;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD51
+Path = /55C9B820
+Reference = SW3;
+ValeurCmp = C;
+IdModule  = cdi-tach:pushbutton_marquardt_6450;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD59
+Path = /55C9B747
+Reference = SW4;
+ValeurCmp = D;
+IdModule  = cdi-tach:pushbutton_marquardt_6450;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD62
+Path = /55C93092
+Reference = U1;
+ValeurCmp = MIC5504-3.3YM5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD73
+Path = /55C25516
+Reference = U2;
+ValeurCmp = ADP2302ARDZ-5.0;
+IdModule  = cdi-tach:ADP2302_SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD97
+Path = /55B9C452
+Reference = U3;
+ValeurCmp = STM32F030K6T6;
+IdModule  = Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAC2
+Path = /55CBD373/55CBFC9D
+Reference = ART4;
+ValeurCmp = QC_label;
+IdModule  = cdi-tach:label_qc;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD15
+Path = /55D233FB/55D23E02
+Reference = R10;
+ValeurCmp = 3K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD0F
+Path = /55D233FB/55D23DFD
+Reference = R9;
+ValeurCmp = 3K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD09
+Path = /55BA893D
+Reference = R8;
+ValeurCmp = 39;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFD03
+Path = /55BB9977
+Reference = R7;
+ValeurCmp = 12.1K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCFD
+Path = /55BB996B
+Reference = R6;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCF7
+Path = /55C9386F
+Reference = R5;
+ValeurCmp = 3K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCEB
+Path = /55C25509
+Reference = R3;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCDF
+Path = /55BB772C
+Reference = R1;
+ValeurCmp = 3K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB1C
+Path = /55D233FB/55D23E04
+Reference = C15;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB16
+Path = /55D233FB/55D23DFF
+Reference = C14;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB10
+Path = /55BB9965
+Reference = C13;
+ValeurCmp = 22nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB0A
+Path = /55BB56BE
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFB04
+Path = /55BB4D39
+Reference = C11;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAFE
+Path = /55BB6C2A
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAF8
+Path = /55BF25F6
+Reference = C9;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAF2
+Path = /55BF26C8
+Reference = C8;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAEC
+Path = /55C2550A
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAE6
+Path = /55BB4C9A
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAE0
+Path = /55C94A7B
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFADA
+Path = /55C9494C
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAD4
+Path = /55C25517
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFACE
+Path = /55C2550D
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFAC8
+Path = /55C2550C
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFDD5
+Path = /55BF1A35
+Reference = Y1;
+ValeurCmp = 7A-8.000MAAE-T;
+IdModule  = cdi-tach:crystal_txc_7a_5x3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFC14
+Path = /55CBD373/55CC0AB7
+Reference = ENC1;
+ValeurCmp = PCB_enclosure;
+IdModule  = cdi-tach:pcb_enclosure;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFCA3
+Path = /55CA80B5
+Reference = P4;
+ValeurCmp = PWR_SPD_TACH;
+IdModule  = cdi-tach:micro-fit_1x6_ra;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E55
+Path = /55D0E0CC/55D1358D
+Reference = C16;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E5B
+Path = /55D0E0CC/55D13726
+Reference = C17;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E61
+Path = /55D0E0CC/55D1414F
+Reference = D5;
+ValeurCmp = BT STATUS;
+IdModule  = cdi-tach:LED_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E62
+Path = /55D20D9E
+Reference = GS2;
+ValeurCmp = MODE;
+IdModule  = Connect:GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E6C
+Path = /55D0E0CC/55D10A05
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D10E91
+Path = /55D0E0CC/55D11BEB
+Reference = U6;
+ValeurCmp = AMS002-S;
+IdModule  = cdi-tach:AMS002-S;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D125FD
+Path = /55D233FB/55D12B8D
+Reference = LED1;
+ValeurCmp = ACSA08-51SEKWA;
+IdModule  = cdi-tach:ACSA08-51SEKWA;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D12618
+Path = /55D233FB/55D1397E
+Reference = LED2;
+ValeurCmp = ACSA08-51SEKWA;
+IdModule  = cdi-tach:ACSA08-51SEKWA;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D12633
+Path = /55D233FB/55D139E0
+Reference = LED3;
+ValeurCmp = ACSA08-51SEKWA;
+IdModule  = cdi-tach:ACSA08-51SEKWA;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D1264E
+Path = /55D233FB/55D13A35
+Reference = LED4;
+ValeurCmp = ACSA08-51SEKWA;
+IdModule  = cdi-tach:ACSA08-51SEKWA;
+EndCmp
+
+BeginCmp
+TimeStamp = 55CBFDB3
+Path = /55D233FB/55D23DFB
+Reference = U4;
+ValeurCmp = CAT4016;
+IdModule  = cdi-tach:SOIC-24_7.5x15.4mm_Pitch1.27mm;
+EndCmp
+
+EndListe
