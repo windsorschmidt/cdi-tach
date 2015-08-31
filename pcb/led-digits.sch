@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:cdi-tach-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -79,13 +80,13 @@ $EndComp
 Text GLabel 4550 1650 1    56   Input ~ 0
 LED1_A
 Text GLabel 3475 5050 0    56   Input ~ 0
-LED_LATCH
+SPI_CS
 Text GLabel 5175 5050 2    56   Input ~ 0
 LED_BLANK
 Text GLabel 8175 5050 2    56   Input ~ 0
 LED_BLANK
 Text GLabel 6475 5050 0    56   Input ~ 0
-LED_LATCH
+SPI_CS
 NoConn ~ 8175 4950
 $Comp
 L GND #PWR047
@@ -278,69 +279,69 @@ Text GLabel 7300 3250 3    56   Input ~ 0
 LED4_DP
 Text Notes 7700 2150 0    60   ~ 0
 7-segment LED x4, common-anode.\nCAT4016 current set with resistor at\nRSET. e.g. RSET = 3KOhm -> 30mA.
-Text GLabel 3475 5750 0    56   Input ~ 0
-LED1_A
-Text GLabel 3475 5850 0    56   Input ~ 0
-LED1_B
-Text GLabel 3475 5250 0    56   Input ~ 0
-LED1_C
 Text GLabel 3475 5350 0    56   Input ~ 0
-LED1_D
+LED1_A
 Text GLabel 3475 5450 0    56   Input ~ 0
-LED1_E
-Text GLabel 3475 5650 0    56   Input ~ 0
-LED1_F
-Text GLabel 3475 5550 0    56   Input ~ 0
-LED1_G
-Text GLabel 3475 5150 0    56   Input ~ 0
-LED1_DP
-Text GLabel 5175 5750 2    56   Input ~ 0
-LED2_A
-Text GLabel 5175 5850 2    56   Input ~ 0
-LED2_B
-Text GLabel 5175 5250 2    56   Input ~ 0
-LED2_C
+LED1_B
 Text GLabel 5175 5350 2    56   Input ~ 0
-LED2_D
-Text GLabel 5175 5450 2    56   Input ~ 0
-LED2_E
-Text GLabel 5175 5650 2    56   Input ~ 0
-LED2_F
-Text GLabel 5175 5550 2    56   Input ~ 0
-LED2_G
+LED1_C
+Text GLabel 5175 5250 2    56   Input ~ 0
+LED1_D
 Text GLabel 5175 5150 2    56   Input ~ 0
+LED1_E
+Text GLabel 3475 5250 0    56   Input ~ 0
+LED1_F
+Text GLabel 3475 5150 0    56   Input ~ 0
+LED1_G
+Text GLabel 5175 5450 2    56   Input ~ 0
+LED1_DP
+Text GLabel 3475 5750 0    56   Input ~ 0
+LED2_A
+Text GLabel 3475 5850 0    56   Input ~ 0
+LED2_B
+Text GLabel 5175 5750 2    56   Input ~ 0
+LED2_C
+Text GLabel 5175 5650 2    56   Input ~ 0
+LED2_D
+Text GLabel 5175 5550 2    56   Input ~ 0
+LED2_E
+Text GLabel 3475 5650 0    56   Input ~ 0
+LED2_F
+Text GLabel 3475 5550 0    56   Input ~ 0
+LED2_G
+Text GLabel 5175 5850 2    56   Input ~ 0
 LED2_DP
-Text GLabel 6475 5750 0    56   Input ~ 0
-LED3_A
-Text GLabel 6475 5850 0    56   Input ~ 0
-LED3_B
-Text GLabel 6475 5250 0    56   Input ~ 0
-LED3_C
 Text GLabel 6475 5350 0    56   Input ~ 0
-LED3_D
+LED3_A
 Text GLabel 6475 5450 0    56   Input ~ 0
-LED3_E
-Text GLabel 6475 5650 0    56   Input ~ 0
-LED3_F
-Text GLabel 6475 5550 0    56   Input ~ 0
-LED3_G
-Text GLabel 6475 5150 0    56   Input ~ 0
-LED3_DP
-Text GLabel 8175 5750 2    56   Input ~ 0
-LED4_A
-Text GLabel 8175 5850 2    56   Input ~ 0
-LED4_B
-Text GLabel 8175 5250 2    56   Input ~ 0
-LED4_C
+LED3_B
 Text GLabel 8175 5350 2    56   Input ~ 0
-LED4_D
-Text GLabel 8175 5450 2    56   Input ~ 0
-LED4_E
-Text GLabel 8175 5650 2    56   Input ~ 0
-LED4_F
-Text GLabel 8175 5550 2    56   Input ~ 0
-LED4_G
+LED3_C
+Text GLabel 8175 5250 2    56   Input ~ 0
+LED3_D
 Text GLabel 8175 5150 2    56   Input ~ 0
+LED3_E
+Text GLabel 6475 5250 0    56   Input ~ 0
+LED3_F
+Text GLabel 6475 5150 0    56   Input ~ 0
+LED3_G
+Text GLabel 8175 5450 2    56   Input ~ 0
+LED3_DP
+Text GLabel 6475 5750 0    56   Input ~ 0
+LED4_A
+Text GLabel 6475 5850 0    56   Input ~ 0
+LED4_B
+Text GLabel 8175 5750 2    56   Input ~ 0
+LED4_C
+Text GLabel 8175 5650 2    56   Input ~ 0
+LED4_D
+Text GLabel 8175 5550 2    56   Input ~ 0
+LED4_E
+Text GLabel 6475 5650 0    56   Input ~ 0
+LED4_F
+Text GLabel 6475 5550 0    56   Input ~ 0
+LED4_G
+Text GLabel 8175 5850 2    56   Input ~ 0
 LED4_DP
 Text Notes 7025 7000 0    51   ~ 0
 This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the CERN OHL v.1.2.\n(http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
