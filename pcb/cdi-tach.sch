@@ -400,9 +400,9 @@ F 3 "" H 8150 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7725 3350
-Text GLabel 4675 4200 0    56   Input ~ 0
-BTN_A
 Text GLabel 4675 4300 0    56   Input ~ 0
+BTN_A
+Text GLabel 4675 4200 0    56   Input ~ 0
 BTN_B
 $Comp
 L +3.3V #PWR016
@@ -818,9 +818,9 @@ F 3 "" H 9625 950 60  0000 C CNN
 	1    9625 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 6975 4200 2    56   Input ~ 0
-BTN_C
 Text GLabel 6975 4100 2    56   Input ~ 0
+BTN_C
+Text GLabel 6975 4200 2    56   Input ~ 0
 BTN_D
 $Comp
 L R R8
@@ -960,13 +960,13 @@ F 3 "" H 10275 3900 60  0000 C CNN
 	1    10275 3900
 	0    -1   1    0   
 $EndComp
-Text GLabel 9775 4200 0    56   Input ~ 0
-SWDIO
 Text GLabel 9775 4100 0    56   Input ~ 0
+SWDIO
+Text GLabel 9775 4200 0    56   Input ~ 0
 SWCLK
-Text GLabel 10275 4100 2    56   Input ~ 0
-USART_TX
 Text GLabel 10275 4200 2    56   Input ~ 0
+USART_TX
+Text GLabel 10275 4100 2    56   Input ~ 0
 USART_RX
 $Comp
 L R_PACK4 RP3
