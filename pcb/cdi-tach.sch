@@ -1175,18 +1175,6 @@ Connection ~ 9875 2100
 Wire Wire Line
 	10475 2100 10475 2050
 Wire Wire Line
-	9925 1400 9925 1450
-Connection ~ 9925 1450
-Wire Wire Line
-	9825 1400 9825 1550
-Connection ~ 9825 1550
-Wire Wire Line
-	9725 1400 9725 1650
-Connection ~ 9725 1650
-Wire Wire Line
-	9625 1400 9625 1750
-Connection ~ 9625 1750
-Wire Wire Line
 	9625 950  9625 1000
 Wire Wire Line
 	9625 950  9925 950 
@@ -1327,4 +1315,16 @@ Wire Wire Line
 Connection ~ 9700 4825
 Wire Wire Line
 	1225 6750 1350 6750
+Wire Wire Line
+	9725 1400 9725 1750
+Connection ~ 9725 1750
+Wire Wire Line
+	9625 1400 9625 1650
+Connection ~ 9625 1650
+Wire Wire Line
+	9925 1400 9925 1550
+Connection ~ 9925 1550
+Wire Wire Line
+	9825 1400 9825 1450
+Connection ~ 9825 1450
 $EndSCHEMATC
